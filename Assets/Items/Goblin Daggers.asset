@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c69f8b25014ce484e83a69a6bb80c748, type: 3}
-  m_Name: Iron Mace
+  m_Script: {fileID: 11500000, guid: eb86651eca8953b45947d98af8e3581d, type: 3}
+  m_Name: Goblin Daggers
   m_EditorClassIdentifier: 
-  DisplayName: Iron Mace
-  Description: An old mace.
-  Icon: {fileID: -4107469028111699786, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
+  DisplayName: Goblin Daggers
+  Description: 
+  Icon: {fileID: 0}
   MaxStackSize: 1
   EquipPrefab: {fileID: 0}
-  Damage: 4
-  Range: 1
-  AttackRate: 1
+  FireRate: 1.2
+  ProjectilePrefab: {fileID: 3102264260759027649, guid: bf2f866166f1c414aa2080b5203ee30d, type: 3}
+  ProjectileItemData: {fileID: 11400000}

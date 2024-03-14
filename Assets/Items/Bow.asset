@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: Shoots arrows.
   Icon: {fileID: 21300000, guid: 960a47ad9509af641a14409765bbabe5, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 0}
+  EquipPrefab: {fileID: 6073574249183522706, guid: 87cbf4bac5539d24a91b25ba4ff4d556, type: 3}
   FireRate: 0.5
-  ProjectilePrefab: {fileID: 0}
+  ProjectilePrefab: {fileID: 3841931033502928458, guid: 44cae3a9750d14d4faf1b148e2e2e641, type: 3}
   ProjectileItemData: {fileID: 11400000, guid: 986ef3d7597065a42b161728cabb4dc7, type: 2}

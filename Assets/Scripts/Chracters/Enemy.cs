@@ -17,6 +17,9 @@ public abstract class Enemy : Character
     [SerializeField] protected float moveSpeed;
     [SerializeField] protected float chaseDistance;
 
+    [SerializeField] protected ItemData[] dropItems;
+    [SerializeField] protected GameObject dropItemPrefab;
+
     protected GameObject target;
 
     protected float lastAttackTime;
@@ -117,6 +120,10 @@ public abstract class Enemy : Character
 
     protected void DropItems()
     {
-        
+        for (int i = 0; i < dropItems.Length; i++)
+        {
+            GameObject obj = Instantiate(dropItemPrefab, transform.position, Quaternion.identity);
+            obj.GetComponent<WorldItem>().SetItem(dropItems[i]);
+        }
     }
 }

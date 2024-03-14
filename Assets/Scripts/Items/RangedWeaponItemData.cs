@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Ranged Weapon Item Data", menuName = "Item/Ranged Weapon Item Data")]
-
 public class RangedWeaponItemData : ItemData
 {
    [Header("Ranged Weapon Data")]
@@ -13,6 +12,7 @@ public class RangedWeaponItemData : ItemData
 
    public void Fire(Vector3 spawnPosition, Quaternion spawnRotation, Character.Team team)
    {
-      
+      GameObject proj = Instantiate(ProjectilePrefab, spawnPosition, spawnRotation);
+      proj.GetComponent<Projectile>().SetTeam(team);
    }
 }
