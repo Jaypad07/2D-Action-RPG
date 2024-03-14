@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418433a119bfb9c47ab5632d1c936a36, type: 3}
   m_Name: Chicken
   m_EditorClassIdentifier: 
-  DisplayName: 
-  Description: 
-  Icon: {fileID: 0}
-  MaxStackSize: 1
+  DisplayName: Chicken
+  Description: Heals 20 HP.
+  Icon: {fileID: -1045181238759104467, guid: c4f3a9366af8961409b97a770879789c, type: 3}
+  MaxStackSize: 5
   EquipPrefab: {fileID: 0}
-  HealthToGive: 0
+  HealthToGive: 20

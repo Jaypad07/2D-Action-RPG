@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69f8b25014ce484e83a69a6bb80c748, type: 3}
   m_Name: Iron Mace
   m_EditorClassIdentifier: 
-  DisplayName: 
-  Description: 
-  Icon: {fileID: 0}
+  DisplayName: Iron Mace
+  Description: An old mace.
+  Icon: {fileID: -4107469028111699786, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
   MaxStackSize: 1
   EquipPrefab: {fileID: 0}
-  Damage: 0
-  Range: 0
-  AttackRate: 0
+  Damage: 3
+  Range: 1
+  AttackRate: 1
