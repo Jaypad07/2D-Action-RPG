@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public abstract class Character : MonoBehaviour, IDamageable
 {
@@ -40,7 +41,8 @@ public abstract class Character : MonoBehaviour, IDamageable
 
     public virtual void Die()
     {
-        
+        Destroy(gameObject);
+        SceneManager.LoadScene(0);
     }
 
     public Team GetTeam()
